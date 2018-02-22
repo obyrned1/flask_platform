@@ -1,3 +1,21 @@
+===========
+how to run
+===========
+
+flask_platform imports the module systeminfo in order to display the machines platform/model.
+
+To use this flask application, the user must use the following command:
+$ pip install git+https://github.com/obyrned1/systeminfo
+
+This will install the systeminfo module on the user's machine/environment. 
+
+Navigate to the dummyapp folder within the flask_platform folder. Then use the command:
+$ python run.py
+
+Running this run.py file will show the machine's model/platform on their local host, port 5000.
+
+
+
 ==============
 flask_platform
 ==============
